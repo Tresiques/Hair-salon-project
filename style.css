@@ -1,0 +1,18 @@
+.section{
+    display: flex;
+    flex: wrap;
+    border: 5px solid red;
+}
+
+.logo {
+    display: flex;
+    flex: flex wrap;
+    border: 5px solid red;
+
+}
+
+.marked{
+    display: flex;
+    flex: wrap;
+    border: 5px solid red;
+}

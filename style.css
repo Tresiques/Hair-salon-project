@@ -1,18 +1,136 @@
-.section{
-    display: flex;
-    flex: wrap;
-    border: 5px solid red;
+.wholeStuff {
+    /* display: flex;
+    flex-wrap: wrap; */
+
+    align-items: center;
+    background-color: lightgray
 }
+
+.header {
+    display:flex;
+    flex-flow: wrap column;
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/* .sectionStuff{
+    display:flex;
+    flex-flow: wrap row;
+    border: 5px solid red;
+    margin-left:30px;
+} */
 
 .logo {
+    display: block;
+    float: left;
+    flex-flow: wrap row;
+    /* border: 5px solid red; */
+    width: 340px;
+    margin: 0;
+    background-color: black;
+    color: white;
+    margin-left:50px;
+}
+
+.topStuff {
     display: flex;
-    flex: flex wrap;
+    background-color: lightseagreen;
+    flex-flow: wrap row-reverse;
+    width: auto;
+    height: 94px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.girlPic {
+    display: flex;
+    background-color: white;
+    border: 5px lightseagreen solid;
+    margin-right:50px;
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 50%;
+}
+
+.someThing {
+    color: blue;
+}
+
+ /* .marked{
+    display: flex;
+    flex-flow: wrap;
     border: 5px solid red;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: wrap row;
+    border: 5px solid red;
+ } */
+
+ /* .adStuff {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content:space-between;
+    align-items:center;
+
+ } */
+
+ .middleStuff {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-left: 50px;
+    margin-right: 50px;
+    width:50%;
+    margin-top: 50px;
+ }
+
+/* .body {
+    display: flex;
+    flex-direction: wrap row;
+    width: 50%;
+    align-content: space-evenly;
+    justify-content: flex-start;
+    border: 5px solid red;
+    background-color: lightgrey;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+} */
+
+/* .bodyLeft{
+    display:flex;
+    flex-flow: wrap column;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+.bodyCenter {
+    display:flex;
+    flex-flow: wrap column;
+    justify-content:space-evenly;
+    margin-right: 20px;
+    
+} */
+
+.leftPic, .centerPic, .rightPic {
+    border: 5px lightseagreen solid;
 
 }
 
-.marked{
-    display: flex;
-    flex: wrap;
-    border: 5px solid red;
+@media all and (min-width: 768px) {
+    .middleStuff {
+        color:black;
+    }
+}
+
+@media all and (min-width: 576px) {
+    .body {
+        color: darkcyan;
+    }
 }
